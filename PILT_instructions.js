@@ -34,15 +34,13 @@ function prepare_PILT_instructions() {
                 <p>Your goal is to add coins to your safe while avoid losing coins already in it.</p>`,
             `<p>On each turn of this game, you will see two cards.
                 You have three seconds to flip one of the two cards.</p>
-                <p>This will reveal the coin you collect: either 1 pound, 50 pence, or 1 penny.</p>
+                <p>This will reveal the coin you collect: either 1 pound or 1 penny.</p>
                 <div style='display: grid;'><table style='width: 200px; grid-column: 2;'><tr>
                 <td><img src='imgs/1pound.png' style='width:${small_coin_size}px; height:${small_coin_size}px;'></td>
-                <td><img src='imgs/50pence.png' style='width:${small_coin_size}px; height:${small_coin_size}px;'></td>
                 <td><img src='imgs/1penny.png' style='width:${small_coin_size}px; height:${small_coin_size}px;'></td></tr></table></div>`,
             `<p>When you flip a card, you might also see broken coins like these:</p>\
                 <div style='display: grid;'><table style='width: 200px; grid-column: 2;'><tr>
                 <td><img src='imgs/1poundbroken.png' style='width:${small_coin_size}px; height:${small_coin_size}px;'></td>
-                <td><img src='imgs/50pencebroken.png' style='width:${small_coin_size}px; height:${small_coin_size}px;'></td>
                 <td><img src='imgs/1pennybroken.png' style='width:${small_coin_size}px; height:${small_coin_size}px;'></td></tr></table></div>
                 <p>This means that such a coin was broken from your safe.</p>`
         ]);
