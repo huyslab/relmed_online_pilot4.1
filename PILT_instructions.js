@@ -107,7 +107,7 @@ function prepare_PILT_instructions() {
     }]);
 
     let dumbbell_on_right = [true, true, false, true, false, false];
-    let reward_magnitude = [0.5, 1, 1, 0.5, 1, 0.5];
+    let reward_magnitude = [1, 1, 1, 1, 1, 1];
 
     if (window.sessionNum > 1){
         dumbbell_on_right = [1, 3, 4, 0].map(i => dumbbell_on_right[i])
@@ -157,7 +157,7 @@ function prepare_PILT_instructions() {
     ]);
 
     let hammer_on_right = [false, true, false, true, false, false];
-    let punishment_magnitude = [-0.01, -0.5, -0.5, -0.01, -0.01, -0.5];
+    let punishment_magnitude = [-0.01, -0.01, -0.01, -0.01, -0.01, -0.01];
 
     if (window.sessionNum > 1){
         hammer_on_right = [1, 3, 4, 0].map(i => hammer_on_right[i])
