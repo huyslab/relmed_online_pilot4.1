@@ -402,7 +402,6 @@ function inter_block_stimulus(){
             </tr>
             <tr>
             <td>${isValidNumber(chosen_outcomes[1]) ? chosen_outcomes[1] : 0}</td>
-            <td>${isValidNumber(chosen_outcomes[0.5]) ? chosen_outcomes[0.5] : 0}</td>
             <td>${isValidNumber(chosen_outcomes[0.01]) ? chosen_outcomes[0.01] : 0}</td>
             </tr></table></div>`;
     } else {
@@ -412,7 +411,6 @@ function inter_block_stimulus(){
             </tr>
             <tr>
             <td>${isValidNumber(chosen_outcomes[-1]) ? chosen_outcomes[-1] : 0}</td>
-            <td>${isValidNumber(chosen_outcomes[-0.5]) ? chosen_outcomes[-0.5] : 0}</td>
             <td>${isValidNumber(chosen_outcomes[-0.01]) ? chosen_outcomes[-0.01] : 0}</td>
             </tr></table></div>`;
     }
