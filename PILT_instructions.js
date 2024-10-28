@@ -17,8 +17,6 @@ function prepare_PILT_instructions() {
         pages: () => {
 
             let pages = [
-                `<p>Welcome!</p>
-                <p>In this study you will complete a few tasks. Let's start with the first game.</p>`
             ];
 
             pages = pages.concat([
@@ -27,9 +25,8 @@ function prepare_PILT_instructions() {
                 <img src='imgs/safe.png' style='width:100px; height:100px;'>
                 <p>At the start of the game, your safe contains:</p>
                 <div style='display: grid'><table><tr><td><img src='imgs/1pound.png' style='width:${small_coin_size}px; height:${small_coin_size}px;'></td>
-                <td><img src='imgs/50pence.png' style='width:${small_coin_size}px; height:${small_coin_size}px;'</td>
                 <td><img src='imgs/1penny.png' style='width:${small_coin_size}px; height:${small_coin_size}px;'></td></tr>
-                <tr><td>60x one pound coins</td><td>60x fifty pence coins</td><td>60x one penny coins</td></tr></table></div>
+                <tr><td>60x one pound coins</td><td>60x one penny coins</td></tr></table></div>
                 <p>At the end of the game, you will draw one coin from your safe, and that will be your bonus payment.</p>
                 <p>Your goal is to add coins to your safe while avoid losing coins already in it.</p>`,
             `<p>On each turn of this game, you will see two cards.
