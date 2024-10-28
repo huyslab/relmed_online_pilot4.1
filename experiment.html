@@ -164,33 +164,7 @@
         procedure.push(lottery_instructions);
         procedure.push(coin_lottery);
 
-        // 2.0 Add vigour task timeline
-        const vigourTimeline = [
-            vigourInstructions,
-            ...experimentTimeline,
-        ];
-        procedure = procedure.concat(vigourTimeline);
-
-        // 2.1 Add vigour bonus message
-        procedure.push(vigour_bonus);
-
-        // 3.0 Add PIT timeline: instructions, trials, bonus
-        const PITtimeline = [
-            PITinstructions,
-            PITtrials,
-            PIT_bonus
-        ];
-        procedure = procedure.concat(PITtimeline);
-
-         // 4.0 Add post-vigour test
-        procedure = procedure.concat(postVigourInstructions);
-        procedure = procedure.concat(postVigourTrials);
-
-        // 5.0 Add reversal timeline
-        procedure = procedure.concat(reversal_instructions);
-        procedure = procedure.concat(reversal_blocks);
-
-        // 6.0 Debrief questions
+        // 2.0 Debrief questions
         procedure = procedure.concat(acceptability);
 
         // Final messages and data saving
