@@ -398,7 +398,6 @@ function inter_block_stimulus(){
 
         txt += `<div style='display: grid'><table><tr>
             <td><img src='imgs/1pound.png' style='width:${small_coin_size}px; height:${small_coin_size}px;'></td>
-            <td><img src='imgs/50pence.png' style='width:${small_coin_size}px; height:${small_coin_size}px;'</td>
             <td><img src='imgs/1penny.png' style='width:${small_coin_size}px; height:${small_coin_size}px;'></td>
             </tr>
             <tr>
@@ -409,7 +408,6 @@ function inter_block_stimulus(){
     } else {
         txt += `<div style='display: grid'><table>
             <tr><td><img src='imgs/1poundbroken.png' style='width:${small_coin_size}px; height:${small_coin_size}px;'></td>
-            <td><img src='imgs/50pencebroken.png' style='width:${small_coin_size}px; height:${small_coin_size}px;'</td>
             <td><img src='imgs/1pennybroken.png' style='width:${small_coin_size}px; height:${small_coin_size}px;'></td>
             </tr>
             <tr>
